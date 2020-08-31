@@ -340,6 +340,7 @@ main {
   .menu-note ul {
     font-family: 'segoepr';
     list-style-type: none;
+    font-size: 15px;
     line-height: 40px;
     margin: 50px; }
   .menu-note .info {
@@ -394,8 +395,9 @@ main {
   .menu-chic ul {
     font-family: 'karma-semibold';
     list-style-type: none;
-    margin: 50px;
-    line-height: 40px; }
+    font-size: 15px;
+    line-height: 40px;
+    margin: 50px; }
   .menu-chic .price {
     text-align: right; }
   .menu-chic .info1 {
@@ -473,6 +475,7 @@ main {
   .menu-delice ul {
     font-family: 'segoepr';
     list-style-type: none;
+    font-size: 15px;
     line-height: 40px;
     margin: 50px; }
   .menu-delice .info {
@@ -522,6 +525,7 @@ main {
   .menu-palette ul {
     font-family: 'segoepr';
     list-style-type: none;
+    font-size: 15px;
     line-height: 40px;
     margin: 50px; }
   .menu-palette .info {

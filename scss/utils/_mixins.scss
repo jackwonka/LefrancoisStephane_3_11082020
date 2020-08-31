@@ -142,9 +142,7 @@
                             }
                                 ul {
                                     font-family: 'segoepr';
-                                    list-style-type: none;
-                                    line-height: 40px;
-                                    margin: 50px;
+                                    @include ul-menu-font;
                                 }
                                     .info {
                                         display: flex;
@@ -201,9 +199,7 @@
                 }
                     ul {
                         font-family: 'karma-semibold';
-                        list-style-type: none;
-                        margin: 50px;
-                        line-height: 40px;
+                        @include ul-menu-font;
                     }
                         .price {
                             text-align: right;
@@ -284,9 +280,7 @@
     }
         ul {
             font-family: 'segoepr';
-            list-style-type: none;
-            line-height: 40px;
-            margin: 50px;
+            @include ul-menu-font;
         }
             .info {
                 display: flex;
@@ -328,9 +322,7 @@
     }
         ul {
             font-family: 'segoepr';
-            list-style-type: none;
-            line-height: 40px;
-            margin: 50px;
+            @include ul-menu-font;
         }
             .info {
                 display: flex;
