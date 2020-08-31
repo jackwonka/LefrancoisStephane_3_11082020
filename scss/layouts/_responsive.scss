@@ -1,0 +1,58 @@
+@media screen and (max-width: 800px) {
+    .menu-note {
+        @include responsive
+        ul {
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .article {
+            margin: 0rem 0 2rem 16rem;
+        }
+        .logo .fab {
+            margin-left: 230px;
+        }
+    }
+    .menu-chic {
+        @include responsive
+        ul {
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .color1::before, .color1::after {
+            width:150px;
+        }
+        .color2::before, .color2::after {
+            width:150px;
+        }
+        .color3::before, .color3::after {
+            width:150px;
+        }
+    }
+    .menu-delice {
+        @include responsive
+        ul {
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .color1::before, .color1::after {
+            width:150px;
+        }
+        .color2::before, .color2::after {
+            width:150px;
+        }
+        .color3::before, .color3::after {
+            width:150px;
+        }
+    }
+    .menu-palette {
+        @include responsive
+        ul {
+            font-size: 13px;
+            font-weight: bold;
+        }
+    }
+    footer a{
+        margin-left: -80px;
+    }
+    
+}

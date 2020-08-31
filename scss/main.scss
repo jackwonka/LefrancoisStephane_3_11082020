@@ -9,25 +9,4 @@
 @import "./layouts/home";
 @import "./layouts/menu";
 @import "./components/buttons";
-
-
-@media screen and (max-width: 800px) {
-    .menu-note {
-        @include responsive
-        .article {
-            margin: 0rem 0 2rem 16rem;
-        }
-        .logo .fab {
-            margin-left: 230px;
-        }
-    }
-    .menu-chic {
-        @include responsive
-    }
-    .menu-delice {
-        @include responsive
-    }
-    .menu-palette {
-        @include responsive
-    }
-}
+@import "./layouts/responsive";
