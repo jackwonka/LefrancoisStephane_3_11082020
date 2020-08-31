@@ -1,0 +1,58 @@
+.grow:hover {
+    transform: scale(1);
+    transition: transform 0.8s, opacity 0.4s;
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+a:hover {
+    animation: wiggle 2ms infinite;
+}
+
+.line::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #4e252a;
+    transition: width .3s;
+}
+.line:hover::after {
+    width: 100%;
+}
+
+.line-one::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #c67412;
+    transition: width .3s;
+}
+.line-one:hover::after {
+    width: 100%;
+}
+
+.line-two::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #a56799;
+    transition: width .3s;
+}
+.line-two:hover::after {
+    width: 100%;
+}
+
+.line-three::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #6e4ccc;
+    transition: width .3s;
+}
+.line-three:hover::after {
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+/*----------Général----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.box{
+    font-family: 'dancingscript-semibold';
+    display: flex;
+    width: 40rem;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+main{
+    background-color: #ffffff;
+    margin: 0rem 0rem 15rem 0rem;
+}
+/*----------Box-Menu-Home----------*/
+
+.box__note{
+    @include home-note;
+ }
+ 
+ .box__chic {
+     @include home-chic;
+ }
+ 
+ .box__delice {
+     @include home-delice;
+ }
+ 
+ .box__palette {
+     @include home-palette;
+ }

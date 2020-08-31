@@ -1,0 +1,33 @@
+@import "./base/typography";
+@import "./utils/animations";
+@import "./utils/keyframes";
+@import "./utils/mixins-header-footer";
+@import "./utils/mixins-nomade";
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./layouts/header-footer";
+@import "./layouts/home";
+@import "./layouts/menu";
+@import "./components/buttons";
+
+
+@media screen and (max-width: 800px) {
+    .menu-note {
+        @include responsive
+        .article {
+            margin: 0rem 0 2rem 16rem;
+        }
+        .logo .fab {
+            margin-left: 230px;
+        }
+    }
+    .menu-chic {
+        @include responsive
+    }
+    .menu-delice {
+        @include responsive
+    }
+    .menu-palette {
+        @include responsive
+    }
+}

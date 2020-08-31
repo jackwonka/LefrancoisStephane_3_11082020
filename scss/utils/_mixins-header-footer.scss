@@ -1,0 +1,29 @@
+@mixin bloc-header {
+    font-family: $font-h-f;
+    background-color: $col-back;
+    padding: 30px;
+        h1 {
+            font-size: 60px;
+            letter-spacing: -4px;
+            color: $col-font;
+            @include display-c;
+    }
+}
+
+@mixin bloc-footer {
+    font-family: $font-h-f;
+    padding: 35px;
+    padding-top: 10px;
+    height: 5px;
+    width: 100%;
+    background-color: $col-back;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+        a {
+            font-size: 20px;
+            color: $col-font;
+            text-decoration: none;
+    }
+}

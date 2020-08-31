@@ -1,0 +1,366 @@
+/*---------Mixins-box-home---------*/
+
+@mixin home-note {
+    font-family: 'Devonshire-Regular';
+    @include display-c;
+    @include home-box-font;
+    background: $back-note;
+    box-shadow: $b-shadow;
+        a {
+             text-decoration: none;
+        }
+            .fab {
+                font-size: 50px;
+                @include degrade-solfege;
+                @include display-c;
+                margin-top: 100px;
+                margin-left: 0px;
+            }
+                h2 {
+                    color: $font-note;
+                    margin-top: -20px;
+                }
+                    p {
+                        font-family: 'segoepr';
+                        font-size: 30px;
+                        color: $font-note;
+                        margin-top: -10px;
+                        @include display-c;
+                     }
+}
+@mixin home-chic {
+    font-family: 'croissantone-regular';
+    @include display-c;
+    @include home-box-font;
+    font-size: 12px;
+    background: $back-chic;
+    box-shadow: $b-shadow;
+        a {
+            text-decoration: none;
+        }
+            h2 {
+                @include degrade-chic;
+                margin-top: 170px;
+            }
+                p {
+                    font-family: 'karma-semibold';
+                    font-size: 30px;
+                    color: $col-1-chic;
+                    @include display-c;
+                }
+}
+@mixin home-delice {
+    font-family: 'dancingscript-semibold';
+    @include display-c;
+    @include home-box-font;
+    background: $back-delice;
+    box-shadow: $b-shadow;
+        a {
+            text-decoration: none;
+        }
+            h2 {
+                @include degrade-delice;
+                margin-top: 155px;
+            }
+                p {
+                    font-family: 'segoepr';
+                    font-size: 30px;
+                    color: $col-1-palette;
+                    @include display-c;
+                }
+}
+@mixin home-palette {
+    font-family: 'lp-pinselschrift';
+    @include display-c;
+    @include home-box-font;
+    background: $back-palette;
+    box-shadow: $b-shadow;
+        a {
+            text-decoration: none;
+        }
+            h2 {
+                @include degrade-palette;
+                margin-top: 155px;
+            }
+                p {
+                    font-family: 'segoepr';
+                    font-size: 30px;
+                    color: $font-palette;
+                    margin-top: -15px;
+                    @include display-c;
+                }
+}
+/*----------Mixins-btn----------*/
+
+@mixin btn {
+    @include display-c;
+    text-decoration: none;
+    font-family: $font-h-f;
+    font-size: 25px;
+    height: 30px;
+    width: 220px;
+    margin: auto;
+    padding:10px;
+    color: $col-font;
+    background: $col-back;
+    border-radius: 15px;
+}
+/*----------Mixins-Menu-Note----------*/
+
+@mixin menu-note {
+    @include menu-font;
+    background: $back-note;
+        .article {
+            margin: 0rem 0 2rem 18rem;
+            padding-top: 50px;
+        }
+            .article h2 {
+                font-family: 'Devonshire-Regular';
+                font-size: 40px;
+                color: $font-note;
+            }
+                h3 {
+                    @include display-c; 
+                    color: $font-note;
+                }
+                    h3::before {
+                        content:'';
+                        margin: auto;
+                        margin-left: 40px;
+                        width:250px;
+                        border-bottom:($font-note) solid;
+                    }
+                        h3::after {
+                            content:'';
+                            margin: auto;
+                            margin-right: 40px;
+                            width:250px;
+                            border-bottom:($font-note) solid;
+                        }
+                            span {
+                                font-family: 'segoepr';
+                            }
+                                ul {
+                                    font-family: 'segoepr';
+                                    list-style-type: none;
+                                    line-height: 40px;
+                                    margin: 50px;
+                                }
+                                    .info {
+                                        display: flex;
+                                        justify-content: space-between;
+                                    }
+                                        .price {
+                                            text-align: right;
+                                        }
+                                            .subtile {
+                                                font-family: 'Devonshire-Regular';
+                                                font-size: 30px;
+                                                color: $font-note;
+                                            }
+}
+/*----------Mixins-responsive-Menu-Note----------*/
+
+@mixin responsive {
+    height: 100%;
+    width: 45rem;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+        h3::before {
+            content:'';
+            margin: auto;
+            margin-left: 40px;
+            width:200px;
+        }
+            h3::after {
+                content:'';
+                margin: auto;
+                margin-right: 40px;
+                width:200px;
+            }
+}
+/*----------Mixins-Menu-Chic----------*/
+
+@mixin menu-chic {
+    @include menu-font;
+    background: $back-chic;
+        h2 {
+            font-family: 'croissantone-regular';
+            @include degrade-chic;
+            @include display-c;
+            font-size: 35px;
+            padding: 100px 0 100px 0;  
+        }
+            h3 {
+                @include display-c;
+                align-items: center;
+            }
+                span {
+                    font-family: 'croissantone-regular';
+                }
+                    ul {
+                        font-family: 'karma-semibold';
+                        list-style-type: none;
+                        margin: 50px;
+                        line-height: 40px;
+                    }
+                        .price {
+                            text-align: right;
+                        }                                           
+}
+
+@mixin color-font {
+    .info1 {
+        display: flex;
+        justify-content: space-between;
+        color: $col-1-chic;
+    }
+    .info2 {
+        display: flex;
+        justify-content: space-between;
+        color: $col-2-chic;
+    }
+    .info3 {
+        
+        color: $col-3-chic;
+    }
+}
+
+@mixin color-title {
+    .color1 {
+        color: $col-1-chic;
+    }
+    .color1::before {
+        @include color-chic;
+        margin-right: 30px;
+        border-bottom:($col-1-chic) solid;
+    }
+    .color1::after {
+        @include color-chic;
+        margin-left: 30px;
+        border-bottom:($col-1-chic) solid;
+    }
+    .color2 {
+        color: $col-2-chic;
+    }
+    .color2::before {
+        @include color-chic;
+        margin-right: 65px;
+        border-bottom:($col-2-chic) solid;
+    }
+    .color2::after {
+        @include color-chic;
+        margin-left: 65px;
+        border-bottom:($col-2-chic) solid;
+    }
+    .color3 {
+        color: $col-3-chic;
+    }
+    .color3::before {
+        @include color-chic;
+        margin-right: 50px;
+        border-bottom:($col-3-chic) solid;
+    }
+    .color3::after {
+        @include color-chic;
+        margin-left: 50px;
+        border-bottom:($col-3-chic) solid;
+    }
+    
+}
+
+/*----------Mixins-Menu-Delice----------*/
+
+@mixin menu-delice {
+    @include menu-font;
+    background: $back-delice;
+    h2 {
+        @include display-c;
+        font-family: 'dancingscript-semibold';
+        font-size: 60px;
+        @include degrade-delice;
+        padding: 80px 0 80px 0;
+    }
+        ul {
+            font-family: 'segoepr';
+            list-style-type: none;
+            line-height: 40px;
+            margin: 50px;
+        }
+            .info {
+                display: flex;
+                justify-content: space-between;
+                }
+                h3 {
+                    @include display-c;
+                    align-items: center;
+                    font-family: 'segoepr';
+                    color: $font-note;
+                }
+}
+
+@mixin border {
+    .color1::before, .color1::after {
+        @include color-border-delice;
+        border-bottom:(#0228dd) solid;
+    }
+    .color2::before, .color2::after {
+        @include color-border-delice;
+        border-bottom:(#0670f3) solid;
+    }
+    .color3::before, .color3::after {
+        @include color-border-delice;
+        border-bottom:(#229df9) solid;
+    }
+}
+/*----------Mixins-Menu-Palette----------*/
+
+@mixin menu-palette {
+    @include menu-font;
+    background: $back-palette;
+    h2 {
+        @include display-c;
+        font-family: 'lp-pinselschrift';
+        @include degrade-palette;
+        font-size: 60px;
+        padding: 80px 0 80px 0;
+    }
+        ul {
+            font-family: 'segoepr';
+            list-style-type: none;
+            line-height: 40px;
+            margin: 50px;
+        }
+            .info {
+                display: flex;
+                justify-content: space-between;
+            }
+                .price {
+                    text-align: right;
+                }
+                     h3::before {
+                        content:'';
+                        margin: auto;
+                        margin-left: 40px;
+                        width:250px;
+                        height: 3px;
+                        border-bottom: solid;
+                        border-image:linear-gradient(to left, #ffffff, #72bf56) 30%;
+                    }
+                    h3::after {
+                        content:'';
+                        margin: auto;
+                        margin-right: 40px;
+                        height: 3px;
+                        width:250px;
+                        border-bottom: solid;
+                        border-image:linear-gradient(to right, #ffffff, #72bf56) 30%;
+                    }
+                        h3 {
+                            @include display-c;
+                            align-items: center;
+                            font-family: 'segoepr';
+                            color: $font-note;
+                        }
+}

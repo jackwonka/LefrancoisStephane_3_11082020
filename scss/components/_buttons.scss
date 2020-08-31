@@ -1,0 +1,19 @@
+/*----------Boutton-Home----------*/
+
+.btn1 {
+    @include btn;
+        .one {
+            animation: point 1500ms linear 1000ms infinite;
+        }
+        .two {
+            animation: point 1500ms linear 1400ms infinite;
+        }
+        .three {
+            animation: point 1500ms linear 1800ms infinite;
+        }
+}
+/*----------Boutton-Retour----------*/
+
+.btn a{
+    @include btn;
+}

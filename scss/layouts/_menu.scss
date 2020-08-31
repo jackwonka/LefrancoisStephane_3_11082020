@@ -1,0 +1,34 @@
+/*----------Page-Menu-Note----------*/
+
+.menu-note {
+    @include menu-note;
+}
+.logo .fab {
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 270px;
+}
+.fab {
+    font-size: 70px;
+    @include degrade-solfege;
+    @include display-c;
+    margin-left: 5.5rem;
+}
+/*----------Page-Menu-Chic----------*/
+
+.menu-chic {
+    @include menu-chic;
+    @include color-font;
+    @include color-title;
+}
+/*----------Page-Menu-Délice----------*/
+
+.menu-delice {
+    @include menu-delice;
+    @include border;
+}
+/*----------Page-Menu-Palette----------*/
+
+.menu-palette {
+    @include menu-palette; 
+}

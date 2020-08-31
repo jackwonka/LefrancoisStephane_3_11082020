@@ -1,0 +1,65 @@
+@mixin display-c {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin degrade-solfege {
+    background: linear-gradient(to right, #f15c61 40%, #f6916a 60%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+@mixin degrade-chic {
+    background: linear-gradient(to right, #c77529 30%, #8f5bfe 70%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+@mixin degrade-delice {
+    background: linear-gradient(to bottom, #438fec 70%, #229df9 20%);
+    color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+@mixin degrade-palette {
+    background: linear-gradient(to right, #72bf56 35%, #aee972 55%);
+    color: transparent;
+    -webkit-background-clip: text;  
+}
+/*----------Mixins-box-Font----------*/
+
+@mixin home-box-font {
+    @include display-c;
+    font-size: 18px;
+    height: 400px;
+    width: 280px;
+    margin: 20px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+/*----------Mixins-Menu-Font----------*/
+
+@mixin menu-font {
+    height: 70rem;
+    width: 50rem;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: $b-shadow;
+}
+/*----------Mixins-color-title-&-border-chic----------*/
+
+@mixin color-chic {
+    content:'';
+    margin: auto;
+    width:200px;
+}
+/*----------Mixins-color-border-delice----------*/
+
+@mixin color-border-delice {
+    content:'';
+    margin: auto;
+    width:220px;
+}
