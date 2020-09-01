@@ -157,27 +157,6 @@
                                                 color: $font-note;
                                             }
 }
-/*----------Mixins-responsive-Menu-Note----------*/
-
-@mixin responsive {
-    height: 100%;
-    width: 45rem;
-    margin: auto;
-    margin-top: 60px;
-    margin-bottom: 40px;
-        h3::before, h3::after {
-            content:'';
-            margin: auto;
-            margin-left: 40px;
-            width:150px;
-        }
-            h3::after {
-                content:'';
-                margin: auto;
-                margin-right: 40px;
-                width:150px;
-            }
-}
 /*----------Mixins-Menu-Chic----------*/
 
 @mixin menu-chic {

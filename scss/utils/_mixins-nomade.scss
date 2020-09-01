@@ -70,3 +70,61 @@
     line-height: 40px;
     margin: 50px;
 }
+/*----------Mixins-responsive-Menu-800px----------*/
+
+@mixin responsive {
+    height: 100%;
+    width: 45rem;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+        h3::before, h3::after {
+            content:'';
+            margin: auto;
+            margin-left: 30px;
+            width:150px;
+        }
+            h3::after {
+                content:'';
+                margin: auto;
+                margin-right: 40px;
+                width:150px;
+            }
+            ul {
+                font-size: 13px;
+                font-weight: bold;
+            }
+}
+/*----------Mixins-responsive-Menu-450px----------*/
+@mixin responsive-450px {
+        width: 20rem;
+        font-size: 10px;
+        h2 {
+            font-size: 45px;
+        }
+        h3 {
+            font-size: 15px;
+            text-shadow:#999896 1px 1px;
+        }
+        h3::before, h3::after {
+            width: 40px;
+        }
+        .info ul {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 10px 0px 10px 0px;
+        }
+        li {
+            padding: 10px;
+        }
+}
+
+@mixin ul-chic {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 0px 10px 0px;
+}

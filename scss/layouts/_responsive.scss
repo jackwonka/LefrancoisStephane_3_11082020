@@ -1,10 +1,6 @@
 @media screen and (max-width: 800px) {
     .menu-note {
         @include responsive
-        ul {
-            font-size: 13px;
-            font-weight: bold;
-        }
         .article {
             margin: 0rem 0 2rem 16rem;
         }
@@ -46,13 +42,118 @@
     }
     .menu-palette {
         @include responsive
-        ul {
-            font-size: 13px;
-            font-weight: bold;
-        }
     }
     footer a{
         margin-left: -80px;
     }
-    
+}
+@media screen and (max-width: 450px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+    }
+    .menu-note {
+        width: 20rem;
+        font-size: 10px;
+        .article {
+            margin-left: 4rem;
+            h2, .fab {
+                font-size: 35px;
+            }
+        }
+        h3 {
+            font-size: 15px;
+            text-shadow:#999896 1px 1px;
+        }
+        h3::before, h3::after {
+            width: 40px;
+        }
+        .info ul{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 10px 0px 10px 0px;
+        }
+        li{
+            padding: 10px;
+        }
+        .logo {
+            display: flex;
+            .fab {
+               margin-left: 40px;
+               font-size: 30px;
+            }
+        }
+    }
+    .menu-chic {
+        width: 20rem;
+        font-size: 10px;
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 14px;
+            text-shadow:#999896 1px 1px;
+        }
+        .color1::before, .color1::after {
+            width: 23px;
+        }
+        .color2::before {
+            width: 23px;
+            margin: 0px 56px 0px 0px;
+        }
+        .color2::after {
+            width: 23px;
+            margin: 0px 0px 0px 56px;
+        }
+        .color3::before {
+            width: 23px;
+            margin: 0px 45px 0px 0px;
+        }
+        .color3::after {
+            width: 23px;
+            margin: 0px 0px 0px 45px;
+        }
+        .info1 ul{
+            @include ul-chic;
+        }
+        .info2 ul{
+            @include ul-chic;
+        }
+        .info3 ul{
+            @include ul-chic;
+        }
+        li{
+            padding: 10px;
+        }
+    }
+    .menu-delice {
+        @include responsive-450px;
+            h2 {
+                font-size: 35px;
+            }
+        .color1::before, .color1::after {
+            width: 30px;
+        }
+        .color2::before {
+            width: 37px; 
+        }
+        .color2::after {
+            width: 37px;   
+        }
+        .color3::before {
+            width: 40px;  
+        }
+        .color3::after {
+            width: 40px;
+        }
+    }
+    .menu-palette {
+        @include responsive-450px;
+        .btn a{
+            padding: 0px;
+        }
+    }
 }
