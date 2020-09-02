@@ -34,3 +34,18 @@ main{
  .box__palette {
      @include home-palette;
  }
+/*----------Mentions-legales----------*/
+
+section {
+    @include mentions;
+    background-color: #e4e3e3;
+    text-align: center;
+    line-height: 20px;
+    h2, h4 {
+        padding: 30px;
+    }
+    a {
+        text-decoration: none;
+        color: #3d9ffa;
+    }
+}

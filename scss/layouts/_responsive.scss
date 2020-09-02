@@ -46,6 +46,11 @@
     footer a{
         margin-left: -80px;
     }
+    section {
+        @include responsive;
+        height: 50rem;
+        
+    }
 }
 @media screen and (max-width: 450px) {
     .box {
@@ -152,8 +157,18 @@
     }
     .menu-palette {
         @include responsive-450px;
-        .btn a{
-            padding: 0px;
+    }
+    .btn a{
+        padding: 0px;
+    }
+    section {
+        @include responsive-450px;
+        line-height: 15px;
+        height: 45rem;
+        h2 {
+            font-size: 25px;
+            padding: 5px;
         }
+        
     }
 }

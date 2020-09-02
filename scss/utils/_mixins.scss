@@ -90,21 +90,6 @@
                     @include display-c;
                 }
 }
-/*----------Mixins-btn----------*/
-
-@mixin btn {
-    @include display-c;
-    text-decoration: none;
-    font-family: $font-h-f;
-    font-size: 25px;
-    height: 30px;
-    width: 220px;
-    margin: auto;
-    padding:10px;
-    color: $col-font;
-    background: $col-back;
-    border-radius: 15px;
-}
 /*----------Mixins-Menu-Note----------*/
 
 @mixin menu-note {
@@ -334,4 +319,24 @@
                             font-family: 'segoepr';
                             color: $font-note;
                         }
+}
+/*----------Mixins-Mentions----------*/
+
+@mixin mentions {
+    @include menu-font;
+}
+/*----------Mixins-btn----------*/
+
+@mixin btn {
+    @include display-c;
+    text-decoration: none;
+    font-family: $font-h-f;
+    font-size: 25px;
+    height: 30px;
+    width: 220px;
+    margin: auto;
+    padding:10px;
+    color: $col-font;
+    background: $col-back;
+    border-radius: 15px;
 }

@@ -118,11 +118,12 @@ a:hover {
 /*----------Mixins-responsive-Menu-800px----------*/
 /*----------Mixins-responsive-Menu-450px----------*/
 /*---------Mixins-box-home---------*/
-/*----------Mixins-btn----------*/
 /*----------Mixins-Menu-Note----------*/
 /*----------Mixins-Menu-Chic----------*/
 /*----------Mixins-Menu-Delice----------*/
 /*----------Mixins-Menu-Palette----------*/
+/*----------Mixins-Mentions----------*/
+/*----------Mixins-btn----------*/
 /*----------Variables-header-footer----------*/
 /*----------Box-acceuil----------*/
 /*----------Box-note----------*/
@@ -297,6 +298,24 @@ main {
     margin-top: -15px;
     display: flex;
     justify-content: center; }
+
+/*----------Mentions-legales----------*/
+section {
+  height: 70rem;
+  width: 50rem;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 2px #c4c5c5;
+  background-color: #e4e3e3;
+  text-align: center;
+  line-height: 20px; }
+  section h2, section h4 {
+    padding: 30px; }
+  section a {
+    text-decoration: none;
+    color: #3d9ffa; }
 
 /*----------Page-Menu-Note----------*/
 .menu-note {
@@ -688,7 +707,27 @@ main {
       font-size: 13px;
       font-weight: bold; }
   footer a {
-    margin-left: -80px; } }
+    margin-left: -80px; }
+  section {
+    height: 100%;
+    width: 45rem;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    height: 50rem; }
+    section h3::before, section h3::after {
+      content: '';
+      margin: auto;
+      margin-left: 30px;
+      width: 150px; }
+    section h3::after {
+      content: '';
+      margin: auto;
+      margin-right: 40px;
+      width: 150px; }
+    section ul {
+      font-size: 13px;
+      font-weight: bold; } }
 
 @media screen and (max-width: 450px) {
   .box {
@@ -810,5 +849,28 @@ main {
       margin: 10px 0px 10px 0px; }
     .menu-palette li {
       padding: 10px; }
-    .menu-palette .btn a {
-      padding: 0px; } }
+  .btn a {
+    padding: 0px; }
+  section {
+    width: 20rem;
+    font-size: 10px;
+    line-height: 15px;
+    height: 45rem; }
+    section h2 {
+      font-size: 45px; }
+    section h3 {
+      font-size: 15px;
+      text-shadow: #999896 1px 1px; }
+    section h3::before, section h3::after {
+      width: 40px; }
+    section .info ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px; }
+    section li {
+      padding: 10px; }
+    section h2 {
+      font-size: 25px;
+      padding: 5px; } }
