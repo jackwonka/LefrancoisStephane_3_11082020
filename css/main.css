@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*----------Titre_La_note_enchantée----------*/
 @font-face {
-  font-family: 'juliet__';
-  src: url("../fonts/juliet__.eot"), url("../fonts/juliet__.woff"), url("../fonts/juliet__.ttf"), url("../fonts/juliet__.svg"); }
+  font-family: 'bair';
+  src: url("../fonts/bair.eot"), url("../fonts/bair.woff"), url("../fonts/bair.ttf"), url("../fonts/bair.svg"); }
 
 /*----------Menu_La_note_enchantée----------*/
 @font-face {
@@ -194,7 +194,7 @@ main {
 
 /*----------Box-Menu-Home----------*/
 .box__note {
-  font-family: 'Devonshire-Regular';
+  font-family: 'bair';
   display: flex;
   justify-content: center;
   display: flex;
@@ -326,10 +326,10 @@ main {
   box-shadow: 0px 0px 12px 2px #c4c5c5;
   background: #fcdfdb; }
   .menu-note .article {
-    margin: 0rem 0 2rem 18rem;
+    margin: 0rem 0 2rem 16rem;
     padding-top: 50px; }
   .menu-note .article h2 {
-    font-family: 'Devonshire-Regular';
+    font-family: 'bair';
     font-size: 40px;
     color: #4e252a; }
   .menu-note h3 {
@@ -362,7 +362,7 @@ main {
   .menu-note .price {
     text-align: right; }
   .menu-note .subtile {
-    font-family: 'juliet__';
+    font-family: 'bair';
     font-size: 30px;
     color: #4e252a; }
 
@@ -378,7 +378,7 @@ main {
   -webkit-background-clip: text;
   display: flex;
   justify-content: center;
-  margin-left: 5.5rem; }
+  margin-left: 7rem; }
 
 /*----------Page-Menu-Chic----------*/
 .menu-chic {
