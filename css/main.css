@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*----------Titre_La_note_enchantée----------*/
 @font-face {
-  font-family: 'Devonshire-Regular';
-  src: url("../fonts/Devonshire-Regular.eot"), url("../fonts/Devonshire-Regular.woff"), url("../fonts/Devonshire-Regular.ttf"), url("../fonts/Devonshire-Regular.svg"); }
+  font-family: 'juliet';
+  src: url("../fonts/juliet.eot"), url("../fonts/juliet.woff"), url("../fonts/juliet.ttf"), url("../fonts/juliet.svg"); }
 
 /*----------Menu_La_note_enchantée----------*/
 @font-face {
@@ -194,7 +194,7 @@ main {
 
 /*----------Box-Menu-Home----------*/
 .box__note {
-  font-family: 'Devonshire-Regular';
+  font-family: 'juliet';
   display: flex;
   justify-content: center;
   display: flex;
@@ -329,7 +329,7 @@ main {
     margin: 0rem 0 2rem 16rem;
     padding-top: 50px; }
   .menu-note .article h2 {
-    font-family: 'signatur';
+    font-family: 'juliet';
     font-size: 40px;
     color: #4e252a; }
   .menu-note h3 {
@@ -362,7 +362,7 @@ main {
   .menu-note .price {
     text-align: right; }
   .menu-note .subtile {
-    font-family: 'signatur';
+    font-family: 'juliet';
     font-size: 30px;
     color: #4e252a; }
 
