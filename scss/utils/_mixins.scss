@@ -1,7 +1,7 @@
 /*---------Mixins-box-home---------*/
 
 @mixin home-note {
-    font-family: 'signatur';
+    font-family: 'Devonshire-Regular';
     @include display-c;
     @include home-box-font;
     background: $back-note;
