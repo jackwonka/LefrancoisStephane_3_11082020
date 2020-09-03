@@ -10,6 +10,7 @@
     }
     .menu-chic {
         @include responsive
+        height: 62rem;
         ul {
             font-size: 13px;
             font-weight: bold;
@@ -46,7 +47,7 @@
     footer a{
         margin-left: -80px;
     }
-    section {
+    .mentions {
         @include responsive;
         height: 50rem;
         
@@ -161,7 +162,7 @@
     .btn a{
         padding: 0px;
     }
-    section {
+    .mentions {
         @include responsive-450px;
         line-height: 15px;
         height: 45rem;
