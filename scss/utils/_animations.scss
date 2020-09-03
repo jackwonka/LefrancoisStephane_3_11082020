@@ -12,8 +12,9 @@ a:hover {
 .line::after {
     content: '';
     display: block;
+    margin: auto;
     width: 0;
-    height: 1px;
+    height: 3px;
     background: #4e252a;
     transition: width .3s;
 }
@@ -25,7 +26,7 @@ a:hover {
     content: '';
     display: block;
     width: 0;
-    height: 1px;
+    height: 3px;
     background: #c67412;
     transition: width .3s;
 }
@@ -37,7 +38,7 @@ a:hover {
     content: '';
     display: block;
     width: 0;
-    height: 1px;
+    height: 3px;
     background: #a56799;
     transition: width .3s;
 }
@@ -49,7 +50,7 @@ a:hover {
     content: '';
     display: block;
     width: 0;
-    height: 1px;
+    height: 3px;
     background: #6e4ccc;
     transition: width .3s;
 }
