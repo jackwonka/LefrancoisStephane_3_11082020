@@ -1,7 +1,7 @@
 /*---------Mixins-box-home---------*/
 
 @mixin home-note {
-    font-family: 'bair';
+    font-family: 'signatur';
     @include display-c;
     @include home-box-font;
     background: $back-note;
@@ -100,7 +100,7 @@
             padding-top: 50px;
         }
             .article h2 {
-                font-family: 'bair';
+                font-family: 'signatur';
                 font-size: 40px;
                 color: $font-note;
             }
@@ -137,7 +137,7 @@
                                             text-align: right;
                                         }
                                             .subtile {
-                                                font-family: 'bair';
+                                                font-family: 'signatur';
                                                 font-size: 30px;
                                                 color: $font-note;
                                             }

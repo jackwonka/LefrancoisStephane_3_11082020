@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*----------Titre_La_note_enchantée----------*/
 @font-face {
-  font-family: 'bair';
-  src: url("../fonts/bair.eot"), url("../fonts/bair.woff"), url("../fonts/bair.ttf"), url("../fonts/bair.svg"); }
+  font-family: 'signatur';
+  src: url("../fonts/signatur.eot"), url("../fonts/signatur.woff"), url("../fonts/signatur.ttf"), url("../fonts/signatur.svg"); }
 
 /*----------Menu_La_note_enchantée----------*/
 @font-face {
@@ -194,7 +194,7 @@ main {
 
 /*----------Box-Menu-Home----------*/
 .box__note {
-  font-family: 'bair';
+  font-family: 'signatur';
   display: flex;
   justify-content: center;
   display: flex;
@@ -329,7 +329,7 @@ main {
     margin: 0rem 0 2rem 16rem;
     padding-top: 50px; }
   .menu-note .article h2 {
-    font-family: 'bair';
+    font-family: 'signatur';
     font-size: 40px;
     color: #4e252a; }
   .menu-note h3 {
@@ -362,7 +362,7 @@ main {
   .menu-note .price {
     text-align: right; }
   .menu-note .subtile {
-    font-family: 'bair';
+    font-family: 'signatur';
     font-size: 30px;
     color: #4e252a; }
 
@@ -378,7 +378,7 @@ main {
   -webkit-background-clip: text;
   display: flex;
   justify-content: center;
-  margin-left: 7rem; }
+  margin-left: 7.5rem; }
 
 /*----------Page-Menu-Chic----------*/
 .menu-chic {
