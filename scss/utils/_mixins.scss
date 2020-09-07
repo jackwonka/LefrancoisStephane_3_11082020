@@ -8,17 +8,16 @@
     box-shadow: $b-shadow;
         a {
              text-decoration: none;
+             margin-top: 115px;
         }
             .fab {
                 font-size: 50px;
                 @include degrade-solfege;
                 @include display-c;
-                margin-top: 100px;
                 margin-left: 0px;
             }
                 h2 {
                     color: $font-note;
-                    margin-top: -20px;
                 }
                     p {
                         font-family: 'segoepr';

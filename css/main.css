@@ -45,15 +45,14 @@
   transform: scale(1.2);
   opacity: 0.5; }
 
-a:hover {
+footer a:hover {
   animation: wiggle 2ms infinite; }
 
 .line::after {
   content: '';
   display: block;
-  margin: auto;
   width: 0;
-  height: 3px;
+  height: 2px;
   background: #4e252a;
   transition: width .3s; }
 
@@ -64,7 +63,7 @@ a:hover {
   content: '';
   display: block;
   width: 0;
-  height: 3px;
+  height: 2px;
   background: #c67412;
   transition: width .3s; }
 
@@ -75,7 +74,7 @@ a:hover {
   content: '';
   display: block;
   width: 0;
-  height: 3px;
+  height: 2px;
   background: #a56799;
   transition: width .3s; }
 
@@ -86,14 +85,14 @@ a:hover {
   content: '';
   display: block;
   width: 0;
-  height: 3px;
+  height: 2px;
   background: #6e4ccc;
   transition: width .3s; }
 
 .line-three:hover::after {
   width: 100%; }
 
-/*----------Wiggle / contact / mentions / boutton----------*/
+/*----------Wiggle / contact / mentions----------*/
 @keyframes wiggle {
   0% {
     transform: rotate(0deg); }
@@ -111,6 +110,8 @@ a:hover {
   100% {
     opacity: 1; } }
 
+/*----------Mixins-Bloc-Header-Footer----------*/
+/*----------Mixins-Dégrader----------*/
 /*----------Mixins-box-Font----------*/
 /*----------Mixins-Menu-Font----------*/
 /*----------Mixins-color-title-&-border-chic----------*/
@@ -193,7 +194,7 @@ main {
     text-decoration: none;
     color: #3d9ffa; }
 
-/*----------Box-Menu-Home----------*/
+/*----------Box-Menu-Accueil----------*/
 .box__note {
   font-family: 'Devonshire-Regular';
   display: flex;
@@ -209,7 +210,8 @@ main {
   background: #fcdfdb;
   box-shadow: 0px 0px 12px 2px #c4c5c5; }
   .box__note a {
-    text-decoration: none; }
+    text-decoration: none;
+    margin-top: 115px; }
   .box__note .fab {
     font-size: 50px;
     background: linear-gradient(to right, #f15c61 40%, #f6916a 60%);
@@ -217,11 +219,9 @@ main {
     -webkit-background-clip: text;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
     margin-left: 0px; }
   .box__note h2 {
-    color: #4e252a;
-    margin-top: -20px; }
+    color: #4e252a; }
   .box__note p {
     font-family: 'segoepr';
     font-size: 30px;
@@ -570,7 +570,7 @@ main {
     font-family: 'segoepr';
     color: #4e252a; }
 
-/*----------Boutton-Home----------*/
+/*----------Boutton-Accueil----------*/
 .btn1 {
   display: flex;
   justify-content: center;
@@ -606,6 +606,7 @@ main {
   background: #579c87;
   border-radius: 15px; }
 
+/*----------Responsive-Menu-800px----------*/
 @media screen and (max-width: 800px) {
   .menu-note {
     height: 100%;
@@ -729,6 +730,7 @@ main {
       font-size: 13px;
       font-weight: bold; } }
 
+/*----------Responsive-Menu-450px----------*/
 @media screen and (max-width: 450px) {
   .box {
     display: flex;
