@@ -607,6 +607,19 @@ main {
   background: #579c87;
   border-radius: 15px; }
 
+/*----------Responsive-Menu-1024px----------*/
+@media screen and (max-width: 1024px) {
+  .menu-note {
+    width: 49rem; }
+  .menu-chic {
+    width: 49rem; }
+  .menu-delice {
+    width: 49rem; }
+  .menu-palette {
+    width: 49rem; }
+  .mentions {
+    width: 49rem; } }
+
 /*----------Responsive-Menu-800px----------*/
 @media screen and (max-width: 800px) {
   .menu-note {
@@ -731,6 +744,158 @@ main {
       font-size: 13px;
       font-weight: bold; } }
 
+/*----------Responsive-Menu-745px----------*/
+@media screen and (max-width: 745px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 20rem; }
+  .menu-note {
+    width: 23rem;
+    font-size: 10px; }
+    .menu-note .article {
+      margin-left: 6rem; }
+      .menu-note .article h2, .menu-note .article .fab {
+        font-size: 35px; }
+    .menu-note h3 {
+      font-size: 15px;
+      text-shadow: #999896 1px 1px; }
+    .menu-note h3::before, .menu-note h3::after {
+      width: 80px; }
+    .menu-note .info ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px; }
+    .menu-note li {
+      padding: 10px; }
+    .menu-note .logo {
+      display: flex; }
+      .menu-note .logo .fab {
+        margin-left: 70px;
+        font-size: 30px; }
+  .menu-chic {
+    width: 23rem;
+    font-size: 10px; }
+    .menu-chic h2 {
+      font-size: 25px; }
+    .menu-chic h3 {
+      font-size: 14px;
+      text-shadow: #999896 1px 1px; }
+    .menu-chic .color1::before, .menu-chic .color1::after {
+      width: 50px; }
+    .menu-chic .color2::before {
+      width: 50px;
+      margin: 0px 56px 0px 0px; }
+    .menu-chic .color2::after {
+      width: 50px;
+      margin: 0px 0px 0px 56px; }
+    .menu-chic .color3::before {
+      width: 50px;
+      margin: 0px 45px 0px 0px; }
+    .menu-chic .color3::after {
+      width: 50px;
+      margin: 0px 0px 0px 45px; }
+    .menu-chic .info1 ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px;
+      padding-right: 20px; }
+    .menu-chic .info1 .price {
+      margin-right: -40px; }
+    .menu-chic .info2 ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px; }
+    .menu-chic .info3 ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px;
+      margin-right: 7rem; }
+    .menu-chic li {
+      padding: 10px; }
+  .menu-delice {
+    width: 20rem;
+    font-size: 10px;
+    width: 23rem; }
+    .menu-delice h2 {
+      font-size: 45px; }
+    .menu-delice h3 {
+      font-size: 15px;
+      text-shadow: #999896 1px 1px; }
+    .menu-delice h3::before, .menu-delice h3::after {
+      width: 40px; }
+    .menu-delice .info ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px; }
+    .menu-delice li {
+      padding: 10px; }
+    .menu-delice h2 {
+      font-size: 35px; }
+    .menu-delice .color1::before, .menu-delice .color1::after {
+      width: 30px; }
+    .menu-delice .color2::before {
+      width: 37px; }
+    .menu-delice .color2::after {
+      width: 37px; }
+    .menu-delice .color3::before {
+      width: 40px; }
+    .menu-delice .color3::after {
+      width: 40px; }
+  .menu-palette {
+    width: 20rem;
+    font-size: 10px;
+    width: 23rem; }
+    .menu-palette h2 {
+      font-size: 45px; }
+    .menu-palette h3 {
+      font-size: 15px;
+      text-shadow: #999896 1px 1px; }
+    .menu-palette h3::before, .menu-palette h3::after {
+      width: 40px; }
+    .menu-palette .info ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px; }
+    .menu-palette li {
+      padding: 10px; }
+  .mentions {
+    width: 20rem;
+    font-size: 10px;
+    width: 25rem;
+    line-height: 15px;
+    height: 45rem; }
+    .mentions h2 {
+      font-size: 45px; }
+    .mentions h3 {
+      font-size: 15px;
+      text-shadow: #999896 1px 1px; }
+    .mentions h3::before, .mentions h3::after {
+      width: 40px; }
+    .mentions .info ul {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 12px;
+      line-height: 20px;
+      margin: 10px 0px 10px 0px; }
+    .mentions li {
+      padding: 10px; }
+    .mentions h2 {
+      font-size: 25px;
+      padding: 5px; } }
+
 /*----------Responsive-Menu-450px----------*/
 @media screen and (max-width: 450px) {
   .box {
@@ -748,7 +913,7 @@ main {
       font-size: 15px;
       text-shadow: #999896 1px 1px; }
     .menu-note h3::before, .menu-note h3::after {
-      width: 40px; }
+      width: 45px; }
     .menu-note .info ul {
       display: flex;
       flex-wrap: wrap;
