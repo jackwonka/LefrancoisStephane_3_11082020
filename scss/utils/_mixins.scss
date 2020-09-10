@@ -65,7 +65,6 @@
                 p {
                     font-family: 'segoepr';
                     font-size: 30px;
-                    margin-top: 10px;
                     color: $col-1-palette;
                     @include display-c;
                 }
@@ -87,7 +86,7 @@
                     font-family: 'segoepr';
                     font-size: 30px;
                     color: $font-palette;
-                    margin-top: 10px;
+                    margin-top: -6px;
                     @include display-c;
                 }
 }
