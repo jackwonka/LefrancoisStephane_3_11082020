@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 800px) {
     .menu-note {
-        @include responsive
+        @include responsive;
         .article {
             margin: 0rem 0 2rem 16rem;
         }
@@ -11,7 +11,7 @@
         }
     }
     .menu-chic {
-        @include responsive
+        @include responsive;
         height: 62rem;
         ul {
             font-size: 13px;
@@ -28,7 +28,7 @@
         }
     }
     .menu-delice {
-        @include responsive
+        @include responsive;
         ul {
             font-size: 13px;
             font-weight: bold;
@@ -44,7 +44,7 @@
         }
     }
     .menu-palette {
-        @include responsive
+        @include responsive;
     }
     footer a{
         margin-left: -80px;

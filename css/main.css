@@ -255,6 +255,7 @@ main {
   .box__chic p {
     font-family: 'karma-semibold';
     font-size: 30px;
+    margin-top: 10px;
     color: #c67412;
     display: flex;
     justify-content: center; }
@@ -283,6 +284,7 @@ main {
   .box__delice p {
     font-family: 'segoepr';
     font-size: 30px;
+    margin-top: 10px;
     color: #3d9ffa;
     display: flex;
     justify-content: center; }
@@ -312,7 +314,7 @@ main {
     font-family: 'segoepr';
     font-size: 30px;
     color: #72bf56;
-    margin-top: -15px;
+    margin-top: 10px;
     display: flex;
     justify-content: center; }
 

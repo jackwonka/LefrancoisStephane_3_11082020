@@ -44,6 +44,7 @@
                 p {
                     font-family: 'karma-semibold';
                     font-size: 30px;
+                    margin-top: 10px;
                     color: $col-1-chic;
                     @include display-c;
                 }
@@ -64,6 +65,7 @@
                 p {
                     font-family: 'segoepr';
                     font-size: 30px;
+                    margin-top: 10px;
                     color: $col-1-palette;
                     @include display-c;
                 }
@@ -85,7 +87,7 @@
                     font-family: 'segoepr';
                     font-size: 30px;
                     color: $font-palette;
-                    margin-top: -15px;
+                    margin-top: 10px;
                     @include display-c;
                 }
 }
